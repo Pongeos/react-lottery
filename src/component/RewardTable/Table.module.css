@@ -1,0 +1,57 @@
+table {
+    border-collapse: collapse;
+}
+
+.wrapper_table {
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+
+    & .container {
+        /* width: 80%; */
+
+        & h4 {
+            font-size: 26px;
+        }
+
+        & .btn_random {
+            margin: 10px 0;
+            background-color: #C6DCBA;
+            border: none;
+            border-radius: 50px;
+            padding: 5px;
+            width: 10rem;
+            height: 2rem;
+            font-size: 16px;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        & button:hover {
+            background-color: #BBC3A4;
+        }
+    }
+
+}
+
+.reward,
+td {
+    border: 1px solid black;
+    font-size: 16px;
+    text-align: center;
+
+    & td {
+        width: 200px;
+        padding: 5px 0;
+    }
+
+    & .td_reward {
+        font-weight: bold;
+        background-color: #D7E4C0;
+    }
+
+    & .td_result {
+        background-color: #C6DCBA;
+    }
+
+}

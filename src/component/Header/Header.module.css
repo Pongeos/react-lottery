@@ -1,0 +1,11 @@
+.container_header {
+    background-color: #D7E4C0;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & .header {
+        font-size: 36px;
+    }
+}
